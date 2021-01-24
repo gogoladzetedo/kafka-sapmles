@@ -9,8 +9,8 @@ import java.util.concurrent.TimeUnit;
 public class Producer {
     public Producer(){}
     public static void main(String[] args) {
-    final List<String> searchTerms = Lists.newArrayList("TSLA", "TESLA", "Musk");
-        final String kafkaTopic = "tweets";
+    final List<String> searchTerms = Lists.newArrayList("TSLA", "TESLA", "Musk", "COVID");
+        final String kafkaTopic = "twitter_tweets";
         final String bootstrapServer = "127.0.0.1:9092";
 
         new Producer().run(searchTerms, kafkaTopic, bootstrapServer);

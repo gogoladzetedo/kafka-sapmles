@@ -11,10 +11,10 @@ import java.util.List;
 import java.util.concurrent.BlockingQueue;
 
 public class TwitterClient {
-    private String consumerKey = "";
-    private String consumerSecret = "";
-    private String token = "";
-    private String tokenSecret = "";
+    private String consumerKey = "cqPLaZuorTecXHmg6yj6Tk6pb";
+    private String consumerSecret = "snNiTMcZEjyRPLlA8WAeRcnTEgS5tQqb5Vv1UbhH7beN1NLLP4";
+    private String token = "1340604898161864705-PmqrSzpDzYyDSFXACpT13oepcpZHnC";
+    private String tokenSecret = "S5oHOWagCCfKvJAxdb1t41EQatZP9OnpE3LptTSVhW9oF";
     final Hosts hbHosts = new HttpHosts(Constants.STREAM_HOST);
     final StatusesFilterEndpoint hbEndpoint = new StatusesFilterEndpoint();
     final Authentication hbAuth = new OAuth1(consumerKey, consumerSecret, token, tokenSecret);
