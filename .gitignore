@@ -1,3 +1,4 @@
 
 TweetsProducer/src/main/java/Producer.java
+TweetsProducer/src/main/java/TwitterClient.java
 TweetsProducer/target/classes/KafkaConfig.class
